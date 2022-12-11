@@ -1,0 +1,26 @@
+
+.heading{
+    letter-spacing: 3px;
+    
+}
+
+.tabLis{
+    left: 12rem;
+    gap: 5rem;
+    color: white !important;
+}
+
+
+.indi-tab{
+    /*color: white !important;*/
+    
+}
+
+
+.item-holder{
+    position: relative;
+    left: 48rem;
+    top: 6rem;
+}
+
+

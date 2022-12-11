@@ -1,0 +1,64 @@
+
+
+nav{
+    height:70px;
+    background:#090b13;
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+    overflow-x: hidden;
+    position: relative;
+    top: -39rem;
+    
+
+}
+.nav-menu{
+   display: flex;
+   flex: 1;
+   margin-left: 25px;
+   align-items: center;  
+}
+
+
+.na1{
+visibility: hidden;    
+}
+
+.na2{
+    visibility: visible;
+}
+
+
+
+span{
+    font-size: 13px;
+    letter-spacing: 1.42px;
+}
+
+@media (max-width: 410px) {
+    .nav-menu{
+        display: none;
+    }
+   
+    
+}
+
+
+
+.underlinee {
+   
+    
+    /* Set up the hover */
+    /* If you aren't using autoprefix, remember to prefix the gradient for other browsers */
+    background-image: linear-gradient(rgb(253, 254, 255), rgb(251, 253, 255));
+    background-size: 0 2px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+  }
+  
+  .underlinee:hover {
+    /* The following line makes the underline only as wide as the text */
+    /* background-size: calc(100% - 2em) 5px, auto; */
+    background-size: 100% 2px, auto;
+  }

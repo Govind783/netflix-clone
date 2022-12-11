@@ -1,0 +1,15 @@
+
+
+.logo2{
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+}
+
+.logo{
+    width: 50vw;
+    height: 91vh;
+    position: relative;
+    top: 1rem;
+    left: 26rem;
+}

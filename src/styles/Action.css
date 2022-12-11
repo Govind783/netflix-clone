@@ -1,0 +1,44 @@
+.action-parent{
+    display: flex;
+    gap: 5rem;
+    position: relative;
+    left: -40rem;
+    width: 88%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+:root{
+    overflow-x: hidden;
+}
+
+
+
+.action-img{
+    width: 13.7rem;
+    border-radius: 7%;
+}
+
+.action-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17%;
+    flex-wrap: wrap;
+    width: 99%;
+}
+
+.action-img{
+    transition: 490ms;
+   
+}
+
+.action-img:hover{
+    transform: scale(0.9);
+    border: 3px solid white;
+    background-color: #fff;
+
+    box-shadow: 1px 0px 1px 1px rgb(206, 219, 219);
+    outline: none;
+}
+

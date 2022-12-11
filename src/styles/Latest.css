@@ -1,0 +1,30 @@
+  .overview {
+      display: flex;
+      flex-wrap: wrap;
+      width: 43%;
+      margin-left: 16%;
+      margin-top: -3.7%;
+  }
+
+  .descr {
+      margin-top: 4.5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -7%;
+      flex-wrap: wrap;
+      width: 80%;
+  }
+
+  .nameLength {
+      margin-left: 22.5%;
+  }
+
+
+  .content {
+      transition: 600ms;
+  }
+
+  .content:hover {
+      transform: scale(1.1);
+  }

@@ -1,0 +1,85 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color: black;
+  color: white  !important;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+img , video{
+ max-width: 100%;
+}
+
+head{
+  color: white !important;
+}
+
+.loader2{
+  position: absolute; 
+  top: 19.5rem;
+  left: 45rem;
+
+}
+
+
+.css-lw7sf2[aria-selected=true], .css-lw7sf2[data-selected]{
+  background-color: #E50914 !important;
+    color: white !important;
+}
+
+.css-lw7sf2{
+  color: rgba(255, 255, 255, 0.674) !important;
+}
+
+.chakra-ui-light :host:not([data-theme]), .chakra-ui-light :root:not([data-theme]), .chakra-ui-light [data-theme]:not([data-theme]), [data-theme=light] :host:not([data-theme]), [data-theme=light] :root:not([data-theme]), [data-theme=light] [data-theme]:not([data-theme]), :host[data-theme=light], :root[data-theme=light], [data-theme][data-theme=light]{
+  --chakra-colors-chakra-body-bg: black !important
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white !important;
+}
+
+body html{
+  background-color: black;
+  color: white !important;
+}
+
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: white !important;
+}
+
+
+#someselector {
+  all: revert;
+  color: white !important;
+}
+
+#someselector * {
+  all: revert;
+  color: white !important;
+}
+
+
+

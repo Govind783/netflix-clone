@@ -1,0 +1,25 @@
+
+.wrap{
+    position: relative;
+    z-index: 999999999999999999999;
+    top: 200%;
+}
+
+.homeAppear{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -44%;
+
+}
+
+/*.homeDisappear{
+    visibility: hidden;
+    opacity: 0;
+}
+*/
+
+.carousel{
+    position: absolute;
+    z-index: 999999999999999999999;
+    top: 200%;
+}

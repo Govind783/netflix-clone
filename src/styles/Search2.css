@@ -1,0 +1,56 @@
+.form {
+    position: relative;
+    left: 30rem;
+}
+
+.inp-box {
+    background-color: beige;
+    color: aqua;
+    height: 150%;
+
+}
+
+.dead-link {
+    display: none;
+}
+
+.sear-txt{
+    top: -8rem;
+    left: 58rem;
+}
+
+.fin{
+    top: -7rem;
+    left: 64rem;
+}
+
+
+
+.search-parent {
+    position: relative;
+    left: 12.9rem;
+    display: flex;
+    gap: 7%;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    top: -6.1rem;
+}
+
+.search-img {
+    width: 13.7rem;
+    border-radius: 7%;
+    transition: 500ms;
+    height: 18rem;
+}
+
+.search-img:hover {
+    transform: scale(1.1);
+    outline: none;
+    border: 3px solid white;
+
+}
+
+.gapp {
+    gap: 10px;
+}
