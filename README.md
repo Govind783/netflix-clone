@@ -1,3 +1,12 @@
+
+A full-fledged Netflix clone built using react and redux. having the landing page, and the home page featuring trending, favorites, and movies from various genres such as action, adventure, horror, thriller, and many more. Followed by a search bar. clicking on any movie takes you to the movie detail page where you can have a look at the IMDB rating, cast, a small overview, and genres. an "add to watch later" button which saves your favorite movies, built with redux, and the "see on youtube" button where which takes you to the respective trailer of the movie. and last but not the least a similar movies section as well which shows recommends movies based on the movie you have clicked.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
