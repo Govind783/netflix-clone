@@ -184,3 +184,17 @@ renderNextButton {
     font-size: 50px;
     color: aqua;
 }
+
+.loadingHold{
+  position: relative;
+  left: 41rem !important;
+  max-width: 100% !important;
+ 
+}
+
+
+.loadingHold2{
+  position: relative;
+  left: 33rem !important;
+  max-width: 100% !important;
+}
